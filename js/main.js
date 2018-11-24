@@ -5,7 +5,7 @@
 
     let element = $('.countdown');
     const dayX = new Date('01 Dec 2018 00:09:30 GMT+01').getTime();
-    // const dayX = new Date('24 Nov 2018 00:19:05 GMT+01').getTime();
+    // const dayX = new Date('24 Nov 2018 03:31:05 GMT+01').getTime();
 
     let refreshCountdown = function (element, finishCallback) {
         let t = getRemainingTime(dayX);
